@@ -179,15 +179,79 @@
 // // }
 
 // challenge 3 part 2 (object and function)
-const human = {
-  fullname: "Mark Miller",
-  mass: 78,
-  height: 1.69,
-  calcBMI: function () {
-    this.BMI = this.mass / (this.height * this.height);
-    return this.BMI;
-  },
-};
+// "use strict";
+// const human = {
+//   fullname: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+//   calcBMI: function () {
+//     this.BMI = this.mass / (this.height * this.height);
+//     return this.BMI;
+//   },
+// };
 
-human.calcBMI();
-console.log(human);
+// human.calcBMI();
+// console.log(human);
+
+// part 1 challenge 1
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+// bmiMark = massMark / (heightMark * heightMark);
+// bmiJohn = massJohn / (heightJohn * heightJohn);
+
+// const markHigherBMI = bmiMark > bmiJohn;
+// console.log(bmiMark);
+// console.log(bmiJohn);
+// console.log(markHigherBMI);
+// console.log(typeof markHigherBMI);
+
+// part 1 challenge 2
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+// bmiMark = massMark / (heightMark * heightMark);
+// bmiJohn = massJohn / (heightJohn * heightJohn);
+// if (bmiMark > bmiJohn) {
+//   console.log(`Mark's BMI ${bmiMark} is higher than John's ${bmiJohn}!`);
+// } else if (bmiJohn > bmiMark) {
+//   console.log(`John's BMI ${bmiJohn} is higher than Mark's ${bmiJohn}!`);
+// } else {
+//   console.log("both bmi is same!");
+// }
+
+// part 1 challenge 3
+// const dolphin1 = 97;
+// const dolphin2 = 112;
+// const dolphin3 = 101;
+
+// const koalas1 = 109;
+// const koalas2 = 95;
+// const koalas3 = 106;
+
+// avgDolphin = (dolphin1 + dolphin2 + dolphin3) / 3;
+// avgKoalas = (koalas1 + koalas2 + koalas3) / 3;
+// console.log(avgDolphin, avgKoalas);
+
+// if (avgDolphin > avgKoalas && avgDolphin >= 100) {
+//   console.log("Dolphin win!!!");
+// } else if (avgKoalas > avgDolphin && avgKoalas >= 100) {
+//   console.log("Koalas win!!!");
+// } else if (avgDolphin === avgKoalas && avgDolphin >= 100 && avgKoalas >= 100) {
+//   console.log("match draw");
+// } else {
+//   console.log("no one is winner!");
+// }
+
+// part 1 challenge 4
+// const billSteven = 275;
+// const tip =
+//   billSteven >= 50 && billSteven <= 300
+//     ? billSteven * (15 / 100)
+//     : billSteven * (20 / 100);
+// const total = billSteven + tip;
+// console.log(
+//   `The bill was ${billSteven}, the tip was ${tip}, and the total value ${total}`
+// );
